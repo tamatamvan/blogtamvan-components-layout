@@ -1,0 +1,25 @@
+{
+  "articles": [
+    { 
+      "id": 1, 
+      "title": "Nendoroid Meteora",
+      "content": "From the popular anime series Re:CREATORS comes a Nendoroid of the librarian from the Avalken of Reminisce, Meteora Österreich! She comes with her magical tome in both an opened and closed form, the Type 01 LMAT she borrowed from the self-defense force as well as a magic circle which can all be combined with the included shouting face plate to recreate various combat scenes in Nendoroid size! She also comes with some pizza, potato chips and a chewing expression for some more relaxed scenes! Recreate your favorite poses from the series and more!",
+      "image": "http://images.goodsmile.info/cgm/images/product/20170801/6623/46851/large/2d23160baacc0ec08c27f20495bd0244.jpg",
+      "slug": "nendoroid-meteora" 
+    },
+    {
+      "id": 2,
+      "title": "AVENGERS Lineup After Infinity War Rumored To Be Revealed",
+      "content": "We already know that things are going to change for the Marvel Cinematic Universe after Avengers Infinity War What that is exactly – remains to be seen A new “leak” may have revealed Marvel’s potential plans for The Avengers lineup after the superhero team-up film – and it’s definitely interesting",
+      "image": "http://www.screengeek.net/wp-content/uploads/2017/08/avengers-infinity-war-640x362.jpg",
+      "slug": "avengers-infinity-war"
+    },
+    {
+      "id": 3,
+      "title": "VueJS with Evan You",
+      "content": "When you have different goals – it’s impossible to say ‘we have the best practices for doing everything’ Because the web is just so versatile Vue.js is a lightweight front-end JavaScript framework that makes it simple to begin prototyping and building web interfaces. Vue.js provides a flexible API for MVVM data bindings, and can serve as an alternative to other front-end frameworks like Angular and React Evan You is the creator of Vue and a core developer at Meteor",
+      "image": "https://coligo.io/vuejs-the-basics/cover-850x416.jpg",
+      "slug": "vue-js-with-evan-you"
+    }
+  ]
+}
