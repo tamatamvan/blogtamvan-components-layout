@@ -2,6 +2,16 @@
 
 > Island Fox Vue-CLI Demo
 
+## Serve API
+Make sure you have json-server installed.
+```
+npm i -g json-server
+```
+Then serve the API with command:
+```
+json-server ./api/db.json
+```
+
 ## Build Setup
 
 ``` bash
