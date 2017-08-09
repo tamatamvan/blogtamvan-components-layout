@@ -5,9 +5,11 @@
         <img :src="article.image" class="img-responsive"/>
       </div>
       <div class="col-md-8">
-        <h4 class="list-group-item-heading">
-          {{ article.title }}
-        </h4>
+        <router-link :to="'/blog/' + article.id">
+          <h4 class="list-group-item-heading">
+            {{ article.title }}
+          </h4>
+        </router-link>
         <p class="list-group-item-text">
           {{ article.content.substring(0, 150) }} . . .
         </p>
