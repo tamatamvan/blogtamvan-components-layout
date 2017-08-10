@@ -13,9 +13,13 @@
 <script>
 import ArticleSummary from '@/components/ArticleSummary'
 export default {
-  props: ['articles'],
   components: {
     ArticleSummary
+  },
+  computed: {
+    articles () {
+      return this.$store.state.articles
+    }
   }
 }
 </script>
