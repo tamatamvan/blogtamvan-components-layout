@@ -5,10 +5,14 @@ import actions from './actions'
 
 Vue.use(Vuex)
 
+const initialState = {
+  count: 0,
+  articles: []
+}
+
 export default new Vuex.Store({
   state: {
-    count: 0,
-    articles: []
+    ...initialState
   },
   mutations,
   actions
