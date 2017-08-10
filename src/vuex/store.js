@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
+import mutations from './mutations'
 
 const http = axios.create({
   baseURL: 'http://localhost:3000'
@@ -13,14 +14,7 @@ export default new Vuex.Store({
     count: 0,
     articles: []
   },
-  mutations: {
-    increment (state, payload) {
-      state.count = payload
-    },
-    setArticles (state, payload) {
-      state.articles = payload
-    }
-  },
+  mutations,
   actions: {
     actionInc ({ commit, state }, payload) {
       const newCount = state.count + payload
