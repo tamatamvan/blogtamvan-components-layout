@@ -1,6 +1,6 @@
-# island-demo
+# Blog Components Layout
 
-> Island Fox Vue-CLI Demo
+> Building simple blog app layout with Vue, Vue CLI Webpack Tempalate, and Vuex.
 
 ## Serve API
 Make sure you have json-server installed.
