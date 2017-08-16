@@ -2,7 +2,7 @@
   <div class="col-md-9">
     <div class="list-group">
       <article-summary 
-      v-for="(article, index) in articles" 
+      v-for="(article, index) in berita" 
       :article="article" 
       :key="index"
       ></article-summary>
@@ -11,15 +11,17 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
 import ArticleSummary from '@/components/ArticleSummary'
 export default {
   components: {
     ArticleSummary
   },
   computed: {
-    articles () {
-      return this.$store.state.articles
-    }
+    ...mapGetters({
+      berita: 'articles',
+      jumlahBerita: 'articlesCount'
+    })
   }
 }
 </script>

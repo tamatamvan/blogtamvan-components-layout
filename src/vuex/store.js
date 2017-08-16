@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import mutations from './mutations'
 import actions from './actions'
 
 Vue.use(Vuex)
@@ -9,13 +10,14 @@ export default new Vuex.Store({
     count: 0,
     articles: []
   },
-  mutations: {
-    increment (state, payload) {
-      state.count = payload
+  getters: {
+    articles (state) {
+      return state.articles
     },
-    setArticles (state, payload) {
-      state.articles = payload
+    articlesCount (state) {
+      return state.articles.length
     }
   },
+  mutations,
   actions
 })
