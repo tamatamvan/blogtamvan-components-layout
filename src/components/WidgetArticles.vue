@@ -9,8 +9,7 @@
         v-for="(article, index) in articles" 
         :to="'/blog/' + article.id" 
         class="list-group-item"
-        :key="index"
-        >
+        :key="index">
           {{ article.title }}
         </router-link>
       </div>

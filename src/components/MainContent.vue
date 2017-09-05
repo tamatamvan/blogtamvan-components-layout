@@ -4,8 +4,8 @@
       <article-summary 
       v-for="(article, index) in articles" 
       :article="article" 
-      :key="index"
-      ></article-summary>
+      :key="index">
+      </article-summary>
     </div>
   </div>
 </template>
