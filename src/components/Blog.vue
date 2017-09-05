@@ -2,11 +2,11 @@
   <div class="container">
     <div class="row">
       <sidebar 
-      :articles="articles"
-      ></sidebar>
+      :articles="articles">
+      </sidebar>
       <router-view 
-      :articles="articles"
-      ></router-view>
+      :articles="articles">
+      </router-view>
     </div>
   </div>
 </template>
