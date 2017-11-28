@@ -1,8 +1,8 @@
 <template>
   <div>
     <h1>Welcome Everybody!</h1>
-    <counter/>
-    <counter-satu/>
+    <Counter/>
+    <CounterSatu/>
   </div>
 </template>
 

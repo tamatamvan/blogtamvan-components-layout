@@ -1,11 +1,10 @@
 <template>
   <div class="col-md-9">
     <div class="list-group">
-      <article-summary 
+      <ArticleSummary
       v-for="(article, index) in articles" 
       :article="article" 
-      :key="index">
-      </article-summary>
+      :key="index"/>
     </div>
   </div>
 </template>

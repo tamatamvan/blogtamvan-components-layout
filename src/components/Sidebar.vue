@@ -1,6 +1,6 @@
 <template>
   <div class="col-md-3">
-    <widget-articles></widget-articles>
+    <WidgetArticles/>
   </div>
 </template>
 
