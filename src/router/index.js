@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
-import Blog from '@/components/Blog'
+import HomePage from '@/components/HomePage'
+import BlogPage from '@/components/BlogPage'
 import MainContent from '@/components/MainContent'
 import ArticleDetail from '@/components/ArticleDetail'
 
@@ -11,11 +11,11 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: Home
+      component: HomePage
     },
     {
       path: '/blog',
-      component: Blog,
+      component: BlogPage,
       children: [
         {
           path: '',

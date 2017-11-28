@@ -1,22 +1,20 @@
 <template>
   <div class="container">
     <div class="row">
-      <sidebar 
-      :articles="articles">
-      </sidebar>
+      <SideBar 
+      :articles="articles"/>
       <router-view 
-      :articles="articles">
-      </router-view>
+      :articles="articles"/>
     </div>
   </div>
 </template>
 
 <script>
-import Sidebar from '@/components/Sidebar'
+import SideBar from '@/components/SideBar'
 import MainContent from '@/components/MainContent'
 export default {
   components: {
-    Sidebar,
+    SideBar,
     MainContent
   },
   data () {
