@@ -11,11 +11,9 @@
 
 <script>
 import SideBar from '@/components/SideBar'
-import MainContent from '@/components/MainContent'
 export default {
   components: {
-    SideBar,
-    MainContent
+    SideBar
   },
   data () {
     return {
