@@ -31,12 +31,12 @@ export default {
       .catch((err) => console.log(err))
     }
   },
-  mounted () {
-    this.getDetailArticle(this.id)
-  },
   watch: {
-    id (newId) {
-      this.getDetailArticle(newId)
+    id: {
+      immediate: true,
+      handler (newId) {
+        this.getDetailArticle(newId)
+      }
     }
   }
 }
